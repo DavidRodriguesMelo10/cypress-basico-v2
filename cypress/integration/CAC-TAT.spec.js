@@ -74,7 +74,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
         })
 
-    it.only('Selecionar um produto via select', function(){
+    it.only('Selecionar um produto via select (YouTube)', function(){
 
         cy.get('#product').select('YouTube').should('have.value', 'youtube')
     })
